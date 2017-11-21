@@ -986,7 +986,7 @@
 	@keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 
 	#header {
-		background: #444;
+		background: #d8331d;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -996,6 +996,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		font-weight: bold;
 	}
 
 		#header h1 {
@@ -1124,6 +1125,7 @@
 			background: none;
 			color: rgba(255, 255, 255, 0.75);
 			position: absolute;
+			font-weight: bold;
 		}
 
 			#header.alt nav > ul > li a:not(.button).icon:before {
@@ -1308,7 +1310,7 @@
 				padding: 1em 0 1.25em 0;
 			}
 	body #main {
-		margin-top: -26em;
+		margin-top: -15em;
 	}
 
 	body.landing #main {
