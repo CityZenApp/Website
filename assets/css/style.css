@@ -997,6 +997,7 @@
 		width: 100%;
 		z-index: 10000;
 		font-weight: bold;
+		font-size: medium;
 	}
 
 		#header h1 {
@@ -1012,7 +1013,7 @@
 
 			#header h1 a {
 				color: #fff;
-				font-weight: 400;
+				font-weight: bold;
 				border: 0;
 			}
 
