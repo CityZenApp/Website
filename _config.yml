@@ -1,7 +1,7 @@
-name: Alpha
-description: Alphs template for Jekyll
+name: CityZen
+description: Official Website
 
-url: "http://localhost:4000"
+url: "cityzenapp.github.io"
 
 paginate: 10
 
