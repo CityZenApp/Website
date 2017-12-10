@@ -1,12 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
-/*
-	Alpha by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Basic */
 
 	body {
@@ -986,7 +980,7 @@
 	@keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 
 	#header {
-		background: #444;
+		background: #d8331d;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -996,6 +990,8 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		font-weight: bold;
+		font-size: medium;
 	}
 
 		#header h1 {
@@ -1007,11 +1003,12 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
+			font-size: large;
 		}
 
 			#header h1 a {
 				color: #fff;
-				font-weight: 400;
+				font-weight: bold;
 				border: 0;
 			}
 
@@ -1124,6 +1121,7 @@
 			background: none;
 			color: rgba(255, 255, 255, 0.75);
 			position: absolute;
+			font-weight: bold;
 		}
 
 			#header.alt nav > ul > li a:not(.button).icon:before {
@@ -1237,10 +1235,11 @@
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
+			font-weight: bold;
 		}
 
 		#banner h2 {
-			font-size: 3.5em;
+			font-size: 3em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
@@ -1308,7 +1307,7 @@
 				padding: 1em 0 1.25em 0;
 			}
 	body #main {
-		margin-top: -26em;
+		margin-top: -15em;
 	}
 
 	body.landing #main {

@@ -19,17 +19,8 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
 	</head>
-	{% if page.url == "/index.html" %}
-		<!-- Banner -->
-		<body class="landing">
-			<section id="banner">
-				 <h2>CityZen</h2>
-				<p>CityZen</p>
-			</section>
-	{% else %}
-		<body>
-			<section id="banner"></section>
-	{% endif %}
+	{% include banner.html %}
+
 	{% include nav.html %}
 	<!-- Main -->
 	<section id="main" class="container">
