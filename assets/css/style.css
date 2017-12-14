@@ -163,6 +163,10 @@
 		margin: 0 0 1.5em 0;
 		font-style: italic;
 	}
+	
+	header a {
+		text-decoration: none;
+	}
 
 	header h2 + p {
 		font-size: 1.25em;
@@ -1005,10 +1009,6 @@
 			position: absolute;
 			top: 0;
 			font-size: large;
-		}
-
-		.header a {
-			text-decoration: none;
 		}	
 
 			#header h1 a {
