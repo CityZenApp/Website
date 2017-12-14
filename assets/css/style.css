@@ -157,6 +157,10 @@
 		text-align: center;
 	}
 
+	.logo a {
+		text-decoration: none;
+	}	
+
 	header p {
 		color: #999;
 		position: relative;
