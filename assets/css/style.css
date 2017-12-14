@@ -1007,6 +1007,10 @@
 			font-size: large;
 		}
 
+		#header a {
+			text-decoration: none;
+		}	
+
 			#header h1 a {
 				color: #fff;
 				font-weight: bold;
