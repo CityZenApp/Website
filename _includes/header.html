@@ -19,6 +19,20 @@
 			<link rel="stylesheet" href="/assets/css/style.css" />
 			<link rel="stylesheet" href="/assets/css/style-desktop.css" />
 		</noscript>
+		<script src="jquery-3.2.1.min.js"></script>
+		<script >
+                function scrollToSection(event) {
+  event.preventDefault();
+  
+  var $section = $($(this).attr('href'));
+  
+  $('html, body').animate({
+    scrollTop: $section.offset().top
+  }, 500);
+}
+
+$('.scroll-to-section').on('click', scrollToSection);
+		</script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 	{% include banner.html %}
