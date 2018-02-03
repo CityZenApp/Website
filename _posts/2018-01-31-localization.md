@@ -4,7 +4,8 @@ layout: post
 ---
 
 <p>
-<span class="image featured"><img src="/assets/images/pic02.jpg" alt=""></span></p>
+<span class="image featured"><img src="/assets/images/translations.jpeg" width="972px" alt=""></span></p>
+<br>
 <p>
 <h3>Translating the app</h3></p>
 <p>
