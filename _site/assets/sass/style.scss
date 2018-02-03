@@ -1,13 +1,6 @@
 @import 'vars';
 @import 'mixins';
 @import 'font-awesome.min.css';
-@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic');
-
-/*
-	Alpha by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Basic */
 
@@ -217,7 +210,7 @@
 /* Form */
 
 	form {
-		margin: 0 0 $size-element-margin 0;
+		margin: 0 0 $size-element-margin 0;	
 	}
 
 	label {

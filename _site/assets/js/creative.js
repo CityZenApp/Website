@@ -1,4 +1,4 @@
-
+(function($) {
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -12,12 +12,12 @@
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
-        target: '.nav',
+        target: '.navbar-fixed-top',
         offset: 51
     })
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.nav ul li a').click(function() {
+    $('.navbar-collapse ul li a').click(function() {
         $('.navbar-toggle:visible').click();
     });
 
@@ -30,7 +30,7 @@
     );
 
     // Offset for Main Navigation
-    $('#nav').affix({
+    $('#mainNav').affix({
         offset: {
             top: 100
         }

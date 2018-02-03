@@ -6,6 +6,8 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="cityzen" />
 			<!--[if lte IE 8]><script src="/assets/css/ie/html5shiv.js"></script><![endif]-->
+		<link rel="icon" type="image/png" href="assets/images/favicon.png" width="64" height="64">
+		<script src="/assets/js/creative.js"></script>
 		<script src="/assets/js/jquery.min.js"></script>
 		<script src="/assets/js/jquery.dropotron.min.js"></script>
 		<script src="/assets/js/skel.min.js"></script>
@@ -17,27 +19,39 @@
 			<link rel="stylesheet" href="/assets/css/style.css" />
 			<link rel="stylesheet" href="/assets/css/style-desktop.css" />
 		</noscript>
+		<script src="jquery-3.2.1.min.js"></script>
+		<script >
+                function scrollToSection(event) {
+  event.preventDefault();
+  
+  var $section = $($(this).attr('href'));
+  
+  $('html, body').animate({
+    scrollTop: $section.offset().top
+  }, 500);
+}
+
+$('.scroll-to-section').on('click', scrollToSection);
+		</script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 	<!-- Banner -->
 	<section id="banner">
-		<h2>CityZen</h2>
-		<p><img src="/assets/images/cityzenapp_logo_red.png" width="100px"</p>
-		</ul>
+		
+		 <p><img src="/assets/images/cityzenapp_logo_red.png" width="100px"</p> 
 	</section>
 
 
 	<!-- Header -->
 	<header id="header" class="alt">
-		<a href=".."><img src="../assets/images/header-logo.svg"></a>
-		<nav id="nav">
+			<a href=".."><img src="assets/images/header-logo.svg"></a>		
+			<nav id="nav">
 			<ul>
-				<li><a href="#header">Home</a></li>
-				<li><a href="#features">Features</a></li>
-				<li><a href="#contribute">Contribute</a></li>
+				<li><a href="#header" class="page-scroll">Home</a></li>
+				<li><a href="#features" class="page-scroll">Features</a></li>
+				<li><a href="#contribute" class="page-scroll">Contribute</a></li>
+				<li><a href="#footer" class="page-scroll">Subscribe</a></li>
 				<li><a href="/blog">Blog</a></li>
-
-
 			</ul>
 		</nav>
 	</header>
@@ -54,14 +68,14 @@
 The app is licensed in an open source license because we want to engage as many people as possible in improving the app. It is also a way of respecting tools and platforms such as OpenStreetMap that respect our freedoms.
 If you are an OpenStreetMap contributor you can easily add information to the POIs by editing them inside CityZen.</p>
 	</header>
-	<span class="image featured"><img src="/assets/images/pic01.jpg" alt="" /></span>
+	<span class="image featured"><img src="/assets/images/pic01.jpg" alt="" /></span> 
 </section>
 
 <section class="box special features" name="features">
 	<h2><a name="features">Features</a></h2>
 	<div class="features-row">
 		<section>
-			<span class="icon major fa-creative-commons accent4"></span>
+			<span class="icon major fa-unlock accent2"></span>
 			<h3>Open Source</h3>
 			<p>Our code is published under the Mozilla Public License. As an open source license ensures collaboration & sharing.</p>
 		</section>
@@ -86,10 +100,10 @@ If you are an OpenStreetMap contributor you can easily add information to the PO
 	</div>
 </section>
 
-<section class="contribute" >
-	<h2><a name="contribute">Contribute</a></h2>
+<section class="Updates" >
+	<h2><a name="contribute">Updates</a></h2><!--
 <h4>Contribute to our project on Github on app development, translation team or web development.</h4>
-</section>
+</section>*/-->
 
 <div class="row">
 	<div class="6u">
@@ -99,7 +113,7 @@ If you are an OpenStreetMap contributor you can easily add information to the PO
 			<h3>Localization</h3>
 			<p>CityZen uses Hosted Weblate, an open source localization platform to provide localization for the entire project. You can contribute there by signing up for a new account or use your existing GitHub account to log in.</p>
 			<ul class="actions">
-				<li><a href="https://hosted.weblate.org/projects/cityzen/strings/" class="button alt">Contribute now</a></li>
+				<li><a href="/_posts/2018-01-31-localization.md " class="button alt">Learn More</a></li>
 			</ul>
 		</section>
 
@@ -107,11 +121,11 @@ If you are an OpenStreetMap contributor you can easily add information to the PO
 	<div class="6u">
 
 		<section class="box special">
-			<span class="image featured"><img src="/assets/images/pic03.jpg" alt="" /></span>
-			<h3>Accumsan integer</h3>
-			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+			<span class="image featured"><img src=" CityZenApp.github.io/assets/images/CityZen app screenshot home ver 1.0.jpg" alt="" /></span>
+			<h3>Annuncing CityZen</h3>
+			<p>In October, almost tree months after the app was released, we started working on the translation process of the user interface. As a open source upholder we wanted the localizations' platform that will be used for translation, to be open source too. </p>
 			<ul class="actions">
-				<li><a href="#" class="button alt">Learn More</a></li>
+				<li><a href="/_posts/2017-08-23-cityzen-presantation.md" class="button alt">Learn More</a></li>
 			</ul>
 		</section>
 
@@ -125,11 +139,21 @@ If you are an OpenStreetMap contributor you can easily add information to the PO
 					<li><a href="https://twitter.com/cityzenappco" class="icon fa-twitter" target="blank"><span class="label">Twitter</span></a></li>
 					<li><a href="https://github.com/CityZenApp" target="blank" class="icon fa-github"><span class="label">Github</span></a></li>
 				</ul>
-				<li>
+				
+				<!-- <form action="https://getsimpleform.com/messages?form_api_token=95edf7e7f040f2541baddcaa31fdb6d9" method="post">
+ 				<input type='text' placeholder="Your Name" name='name' />
+			        <input type='email' placeholder="Your Email" name='email' />
+			        <input type='submit' value='Submit' />
+				</form>-->
+				<ul class="info">
+<li><a href="https://github.com/CityZenApp/Android-Development/blob/master/LICENSE" target="_blank"><span class="links">License</span></a></li>
+<li><a href="/_includes/privacy_policy.html"><span class="links">Pricacy policy<span></a></li>
+<li><a href="/_includes/credits.html"><span class="links">Credits</span></a></li>  </ul>
+				<ul>
 					<p>Portions of this content are &copy; 2017 by individual cityzenapp.co contributors.<br />
 					Content available under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="blank">Creative Commons</a> license, unless otherwise noted.<br />
 					Built with <a href="https://jekyllrb.com/" target="blank">Jekyll</a> by CityZen.</p>
-				<li>
+				<ul>
 			</footer>
 
 	</body>

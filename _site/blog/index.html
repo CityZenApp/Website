@@ -6,7 +6,8 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="cityzen" />
 			<!--[if lte IE 8]><script src="/assets/css/ie/html5shiv.js"></script><![endif]-->
-		<link rel="icon" type="image/png" href="../../assets/images/favicon.png" width="64" height="64">
+		<link rel="icon" type="image/png" href="assets/images/favicon.png" width="64" height="64">
+		<script src="/assets/js/creative.js"></script>
 		<script src="/assets/js/jquery.min.js"></script>
 		<script src="/assets/js/jquery.dropotron.min.js"></script>
 		<script src="/assets/js/skel.min.js"></script>
@@ -18,28 +19,39 @@
 			<link rel="stylesheet" href="/assets/css/style.css" />
 			<link rel="stylesheet" href="/assets/css/style-desktop.css" />
 		</noscript>
+		<script src="jquery-3.2.1.min.js"></script>
+		<script >
+                function scrollToSection(event) {
+  event.preventDefault();
+  
+  var $section = $($(this).attr('href'));
+  
+  $('html, body').animate({
+    scrollTop: $section.offset().top
+  }, 500);
+}
+
+$('.scroll-to-section').on('click', scrollToSection);
+		</script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 	<!-- Banner -->
 	<section id="banner">
-		<h2>CityZen</h2>
-		<p><img src="/assets/images/cityzenapp_logo_red.png" width="100px"</p>
-		</ul>
+		
+		 <p><img src="/assets/images/cityzenapp_logo_red.png" width="100px"</p> 
 	</section>
 
 
 	<!-- Header -->
 	<header id="header" class="alt">
-		<a href=".."><img src="/assets/images/header-logo.svg"></a>
-		<nav id="nav">
+			<a href=".."><img src="assets/images/header-logo.svg"></a>		
+			<nav id="nav">
 			<ul>
-				<li><a href="#header">Home</a></li>
-				<li><a href="#features">Features</a></li>
-				<li><a href="#contribute">Contribute</a></li>
-
+				<li><a href="#header" class="page-scroll">Home</a></li>
+				<li><a href="#features" class="page-scroll">Features</a></li>
+				<li><a href="#contribute" class="page-scroll">Contribute</a></li>
+				<li><a href="#footer" class="page-scroll">Subscribe</a></li>
 				<li><a href="/blog">Blog</a></li>
-
-
 			</ul>
 		</nav>
 	</header>
@@ -52,42 +64,53 @@
 		<h2>Blog Posts</h2>
 	</header>
 		
-			<h3><a href="/2014/08/31/hello-word.html">Ullamco Laboris minim veniam</a></h3>
-			<span class="date">31 Aug 2014</span>
+			<h3><a href="/2018/01/31/localization.html">Navigate in your native language</a></h3>
+			<span class="date">31 Jan 2018</span>
 			<section class="box special">
-				<span class="image featured"><img src="/assets/images/pic03.jpg" alt="" /></span>
-<h3>Consectetur tempor ut dolore</h3>
-Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				
+<span class="image featured"><img src="/assets/images/pic02.jpg" alt="" /></span>
+
+<h3>Translating the app</h3>
+
+In October, almost tree months after the app was <a href="https://f-droid.org/en/packages/com.cityzen.cityzen/" target="_blank">released</a>, we started working on the translation process of the user interface. As a <a href="https://github.com/CityZenApp" target="_blank">open source</a> upholder we wanted the localizations' platform that will be used for translation, to be open source too.
+The problems that came up as soon as we started for a such platform were two. Initially, many open source web translations' platform wouldn't support XML files. All strings that need to be translated for CityZen are in one XML file. The second issue that we faced had to do with the lack of infrastructure. There were many open source softwares that would fit CityZen's needs for translation. But due to the lack of infrastructure it was impossible to host a such sorfware on a dedicated server from our side. Thankfully, we managed to overcome up this issues when we were able to find a platform that fulfill both criterias. We found Weblate. 
+<a href="https://hosted.weblate.org/projects/cityzen/strings/ " target="_blank">Weblate</a>  is a free web-based translation tool with tight version control integration. It offers a user-friendly interface for translations. The largest advantage of Weblate was the fact that we could have direct integrations of the translated strings with CityZen's GitHub repository. The translations should be kept within the same repository as the source code and the translation process should closely follow development. So far, CityZen has been translated in 11 languages!  All translations are made by individual contributors from around the world! All these new translations will be integrated to the app on the next stable release. 
 
 			<ul class="actions">
-				<li><a href="/2014/08/31/hello-word.html" class="button alt">Read Article</a></li>
+				<li><a href="/2018/01/31/localization.html" class="button alt">Read Article</a></li>
 			</ul>
 			</section>
 		
-			<h3><a href="/2014/08/25/test-post.html">Sunt in culpa qui</a></h3>
-			<span class="date">25 Aug 2014</span>
+			<h3><a href="/2017/08/23/cityzen-presantation.html">Announcing the CityZen project</a></h3>
+			<span class="date">23 Aug 2017</span>
 			<section class="box special">
-				<span class="image featured"><img src="/assets/images/pic01.jpg" alt="" /></span>
-<h3>Sed lorem adipiscing</h3>
-Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<span class="image featured"><img src="/assets/images/CityZen app screenshot home ver 1.0.jpg" alt="" /></span>
+
+<h3>CityZen app</h3>
+After announcing to the local hackerspace members first, we would like to share the exciting news about the launch of CityZen app here at our blog as well. We are using the word 'exciting' as this is an open source project not based on 'the start-up silicon valley strusture' cities so it has a chance of becoming mainstream. We would like to share some context before presenting the project.
+Today, city-navigation or Points Of Interest (POIs) apps are exactly what their name says: they are supposed to help you get around in the spots of the city you are at the moment. If you like to find points of interest (POIs) easy on the cities you visit, probably you need a guide or somehow orientation where to start. This becomes even more important when you are traveling, because you are probably searching for something very specific first. Your secondary need is to go from your location to that specific POI you are interested in. For example, if you are searching for a bank, you probably need the one that is closer to you and that is opened at a certain time right? After finding the bank that is opened at the time that is convenient to you you, will probably need to use a navigator to go there.
+<span class="image featured"><img src="/asstes/images/Navigate the map.png" alt="" /></span>
+
+When searching for a place you use a device, with navigation services and GPS. For example, Google maps and Apple maps have a nice UX, but they are proved to <a href="https://mashable.com/2014/06/05/edward-snowden-revelations/#9aufqGvh7Pqt" target="_blank">not respect our privacy</a>. Not everyone likes to give all their geo-data to someone. There are other open source solutions to use like OSMand and Maps.me, focused on navigation and not on searching POIs as the the main service they offer.
+CityZen app is an app focused on showing points of interest within a place. With the research done during these past year and knowing the amazing achievements of the OpenStreetMap project, the design thinking behind the app was simple: it needs to be open source, privacy oriented, OpenStreetMap based and  a community driven project. So, after months of work and development here is how CityZen on it’s alpha version.
+<span class="image featured"><img src="/assets/images/Routes.png" alt="" /></span>
+As mentioned before., CityZen is based on <a href="http://openstreetmap.org/" target="_blank"> OpenStreetMap</a>, the open data and open source collaborative map, and it has predefined categories such as transportation, touristic attractions, ATMs, restaurants, bars etc. You can also search for specific <a href="https://en.wikipedia.org/wiki/Point_of_interest" target="_blank">POIs</a> of course and get guidance if you want to got from point A to point B.
+
+In addition, you can also edit or/add new POIs if you have an OpenStreetMap account. In case you have not created an OSM account you can even create one using CityZen.
+
+<h4>Privacy on default</h4>
+The app has a special focus on privacy. This is why we don’t keep your location or any other personal data. Technically there is no server for keeping data from the app, which makes it impossible for the development team of the app to track you. This is what should be the standard for any app out there.
+
+<h4>Community first</h4>
+The app is now at an closed alpha version release and after the testing period with a limited number of open source and OpenStreetMaps enthusiasts from around the world the development ideally should go to the community.  The community will also have a crucial role in the decision making process of the project. If you want to get involved at this stage and be part of the project have a look at the <a href="https://github.com/CityZenApp" target="_blank">Github repo</a>. That is the place where you can add your proposals and improvements.
+
+<h4>Open source, of course</h4>
+The app is published under the <a href="https://github.com/CityZenApp/CityZen-Android/blob/master/LICENSE" target="_blank">Mozilla Public License 2.0</a> making it easy to everyone to get involved and improve the app.As mentioned before we have released the code on Github where  you can also file a bug.
+
+Now that the code is released in the internets it is up to the community to use, improve and share CityZen.
 
 			<ul class="actions">
-				<li><a href="/2014/08/25/test-post.html" class="button alt">Read Article</a></li>
-			</ul>
-			</section>
-		
-			<h3><a href="/2014/08/20/another-post.html">Lorem Ipsum Dolor Sit Amet</a></h3>
-			<span class="date">20 Aug 2014</span>
-			<section class="box special">
-				<span class="image featured"><img src="/assets/images/pic02.jpg" alt="" /></span>
-<h3>Non aute irure</h3>
-Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-			<ul class="actions">
-				<li><a href="/2014/08/20/another-post.html" class="button alt">Read Article</a></li>
+				<li><a href="/2017/08/23/cityzen-presantation.html" class="button alt">Read Article</a></li>
 			</ul>
 			</section>
 		
@@ -100,11 +123,21 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 					<li><a href="https://twitter.com/cityzenappco" class="icon fa-twitter" target="blank"><span class="label">Twitter</span></a></li>
 					<li><a href="https://github.com/CityZenApp" target="blank" class="icon fa-github"><span class="label">Github</span></a></li>
 				</ul>
-				<li>
+				
+				<!-- <form action="https://getsimpleform.com/messages?form_api_token=95edf7e7f040f2541baddcaa31fdb6d9" method="post">
+ 				<input type='text' placeholder="Your Name" name='name' />
+			        <input type='email' placeholder="Your Email" name='email' />
+			        <input type='submit' value='Submit' />
+				</form>-->
+				<ul class="info">
+<li><a href="https://github.com/CityZenApp/Android-Development/blob/master/LICENSE" target="_blank"><span class="links">License</span></a></li>
+<li><a href="/_includes/privacy_policy.html"><span class="links">Pricacy policy<span></a></li>
+<li><a href="/_includes/credits.html"><span class="links">Credits</span></a></li>  </ul>
+				<ul>
 					<p>Portions of this content are &copy; 2017 by individual cityzenapp.co contributors.<br />
 					Content available under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="blank">Creative Commons</a> license, unless otherwise noted.<br />
 					Built with <a href="https://jekyllrb.com/" target="blank">Jekyll</a> by CityZen.</p>
-				<li>
+				<ul>
 			</footer>
 
 	</body>
