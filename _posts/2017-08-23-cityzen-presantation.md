@@ -3,16 +3,18 @@ title: Announcing the CityZen project
 layout: post
 ---
 
-<p><span class="image featured"><img src="/assets/images/CityZen app screenshot home ver 1.0.jpg" alt=""></span></p>
+<p><span class="image featured"><img src="/assets/images/screenshots images.png" alt=""></span></p>
+<br>
 <p>
 <h3>CityZen app</h3></p>
 <p>After announcing to the local hackerspace members first, we would like to share the exciting news about the launch of CityZen app here at our blog as well. We are using the word 'exciting' as this is an open source project not based on 'the start-up silicon valley strusture' cities so it has a chance of becoming mainstream. We would like to share some context before presenting the project.</p>
 <p>Today, city-navigation or Points Of Interest (POIs) apps are exactly what their name says: they are supposed to help you get around in the spots of the city you are at the moment. If you like to find points of interest (POIs) easy on the cities you visit, probably you need a guide or somehow orientation where to start. This becomes even more important when you are traveling, because you are probably searching for something very specific first. Your secondary need is to go from your location to that specific POI you are interested in. For example, if you are searching for a bank, you probably need the one that is closer to you and that is opened at a certain time right? After finding the bank that is opened at the time that is convenient to you you, will probably need to use a navigator to go there.</p>
-<p><span class="image featured"><img src="/asstes/images/Navigate the map.png" alt=""></span></p>
+<p><span class="image featured"><img src="" alt=""></span></p>
 <p>
 When searching for a place you use a device, with navigation services and GPS. For example, Google maps and Apple maps have a nice UX, but they are proved to <a href="https://mashable.com/2014/06/05/edward-snowden-revelations/#9aufqGvh7Pqt" target="_blank">not respect our privacy</a>. Not everyone likes to give all their geo-data to someone. There are other open source solutions to use like OSMand and Maps.me, focused on navigation and not on searching POIs as the the main service they offer.</p>
 <p>CityZen app is an app focused on showing points of interest within a place. With the research done during these past year and knowing the amazing achievements of the OpenStreetMap project, the design thinking behind the app was simple: it needs to be open source, privacy oriented, OpenStreetMap based and  a community driven project. So, after months of work and development here is how CityZen on it’s alpha version.</p>
-<p><span class="image featured"><img src="/assets/images/Routes.png" alt=""></span></p>
+<!-- <p><span class="image featured"><img src="/assets/images/Routes.png" alt=""></span></p>
+-->
 <p>As mentioned before., CityZen is based on <a href="http://openstreetmap.org/" target="_blank"> OpenStreetMap</a>, the open data and open source collaborative map, and it has predefined categories such as transportation, touristic attractions, ATMs, restaurants, bars etc. You can also search for specific <a href="https://en.wikipedia.org/wiki/Point_of_interest" target="_blank">POIs</a> of course and get guidance if you want to got from point A to point B.</p>
 
 <p>In addition, you can also edit or/add new POIs if you have an OpenStreetMap account. In case you have not created an OSM account you can even create one using CityZen.</p>
