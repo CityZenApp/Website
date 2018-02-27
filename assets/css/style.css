@@ -162,7 +162,7 @@
 		margin: 0 0 1.5em 0;
 		font-style: italic;
 	}
-	
+
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
@@ -1004,7 +1004,7 @@
 			position: absolute;
 			top: 0;
 			font-size: large;
-		}	
+		}
 
 			#header h1 a {
 				color: #fff;
@@ -1355,6 +1355,11 @@
 				padding-left: 1em;
 			}
 
+#footer .info li {
+display: inline-block;
+list-style: none;
+margin-left: 1em;
+padding-left:1em;}
 				#footer .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
