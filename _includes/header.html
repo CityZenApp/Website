@@ -22,12 +22,10 @@
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
 	</head>
-	{% if page.url == "{{site.baseurl}}" %}
+	{% if page.url == "/index.html" %}
 	<body class="landing">
 	{% include banner.html %}
-		{% elsif page.url == "/index.html" %}
-		<body class="landing">
-	{% include banner.html %}
+	
 {% else %}
 <body>
 	<section id="banner"></section>
