@@ -19,23 +19,33 @@
 			<link rel="stylesheet" href="/assets/css/style.css" />
 			<link rel="stylesheet" href="/assets/css/style-desktop.css" />
 		</noscript>
-		
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
 	</head>
-	{% if page.url == "{{site.baseurl}}/index.html" %}
+	{% include banner.html %}
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title></title>
+		</head>
+		<body>
+
+		</body>
+	</html>
+	<!--{% if page.url == "{{site.baseurl}}/index.html" %}
 	<body class="landing">
 	<section id="banner">
 
 		       <h2>CityZen</h2>
-		     <!-- <p>The companion app to navigate the city</p>-->
-		    <ul class="actions">
+		     <! - <p>The companion app to navigate the city</p>-->
+		    <!--<ul class="actions">
 		       <li><a href="https://f-droid.org/en/packages/com.cityzen.cityzen/" target="_blank" class="button special">Download</a></li>
 		       <li><a href="https://www.patreon.com/CityZenApp" class="button special">Support on Patreon</a></li></ul>"
 	</section>
 {% else %}
 <body>
 	<section id="banner"></section>
-{% endif %}
+{% endif %}-->
 
 	{% include nav.html %}
 	<!-- Main -->
