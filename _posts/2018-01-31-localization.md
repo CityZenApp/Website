@@ -1,5 +1,5 @@
 ---
-title: Navigate in your native language
+title: Community empowered communication efforts
 layout: post
 ---
 
