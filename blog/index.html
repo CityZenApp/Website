@@ -10,7 +10,7 @@ layout: default
 			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			<span class="date">{{ post.date | date_to_string }}</span>
 			<section class="box special">
-				{{ post.content | truncatewords: 140 | remove: '<p>' | remove: '</p>' | split:'<!--break-->' | first | remove '<img src="/assets/images/Andy_Scherzinger.jpg" alt="Andy Scherzinger"  width="250" height="250">'  }}
+				{{ post.content | truncatewords: 140 | remove: '<p>' | remove: '</p>' | split:'<!--break-->' | first | remove: '<img src="/assets/images/Andy_Scherzinger.jpg" alt="Andy Scherzinger"  width="250" height="250">'  }}
 			<ul class="actions">
 				<li><a href="{{ site.prefix }}{{ post.url }}" class="button alt">Read Article</a></li>
 			</ul>
