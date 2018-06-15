@@ -12,7 +12,7 @@ layout: post
 <p> <img src="/assets/images/Sidorela_Uku.jpg" alt="Sidorela Uku"  width="250" height="250"> </p>
 <br>
 <h4 style='font-weight: bold;' > Please introduce yourself </h4>
-<p>I'm <a href="https://github.com/sidorelauku"> Sidorela Uku </a> and I pretend to be a software engineer, or at least this is what I have studied for. I am a member of <a href"www.openlabs.cc"> Open Labs Hackerspace </a> with passion for Free and Open Source technologies and a contributor.</p>
+<p>I'm <a href="https://github.com/sidorelauku"> Sidorela Uku </a> and I pretend to be a software engineer, or at least this is what I have studied for. I am a member of <a href="https://openlabs.cc/en/"> Open Labs Hackerspace </a> with passion for Free and Open Source technologies and a contributor.</p>
 <br>
 <h4 style='font-weight: bold;'> When and how did you discover CityZen? </h4>
 <p>First time I heard for CityZen was from <a href="https://twitter.com/rskikuli"> Redon Skikuli</a>, when he showed me his idea and the beta versions of the app. This was were I started getting involved with the project.</p>
