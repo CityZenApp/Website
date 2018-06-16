@@ -9,7 +9,7 @@ layout: post
 <a href="https://twitter.com/CityZenappco?lang=en">Twitter</a>.</p> 
 <br>
 <!--break-->
-<p> <img src="/assets/images/Sidorela_Uku.jpg" alt="Sidorela Uku"  width="320" height="250"> </p>
+<p> <img src="/assets/images/SidorelaUku.jpg" alt="Sidorela Uku"  width="280" height="250"> </p>
 <br>
 <h4 style='font-weight: bold;' > Please introduce yourself </h4>
 <p>I'm <a href="https://github.com/sidorelauku"> Sidorela Uku </a> and I pretend to be a software engineer, or at least this is what I have studied for. I am a member of <a href="https://openlabs.cc/en/"> Open Labs Hackerspace </a> with passion for Free and Open Source technologies and a contributor.</p>
