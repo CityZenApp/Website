@@ -15,7 +15,7 @@ layout: post
 <p>I’m Jonathan Beliën, web developer specialized in Geographical Information System (fancy words to say I use maps and geographical data), board member of <a href="https://osm.be/"> OpenStreetMap Belgium </a> and member of <a href="https://openlabs.cc/"> Open Labs.</p>
 <br>
 <h4 style='font-weight: bold;'> When and how did you discover CityZen? </h4>
-<p>I don't remember exactly when I heard about CityZen but I guess, <a href="https://twitter.com/rskikuli"> Redon </a> told about his idea of an app using OpenStreetMap and focusing on privacy during OSCAL'17.</p>
+<p>I don't remember exactly when I heard about CityZen but I guess, Redon told about his idea of an app using OpenStreetMap and focusing on privacy during OSCAL'17.</p>
 <br>
 <h4 style='font-weight: bold;' > Why did you become a CityZen? What motivates you? </h4>
 <p>Being part of the OpenStreetMap community and being interested in open-source solutions, I proposed my help for the map part of the app.</p>
