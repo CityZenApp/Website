@@ -9,7 +9,7 @@ layout: post
 <a href="https://twitter.com/CityZenappco?lang=en">Twitter</a>.</p> 
 <br>
 <!--break-->
-<p> <img src="/assets/images/Jonathan_Belien.jpg" alt="Jonathan Belien"  width="450" height="400"> </p>
+<p> <img src="/assets/images/Jonathan_Belien.jpg" alt="Jonathan Belien"  width="500" height="400"> </p>
 <br>
 <h4 style='font-weight: bold;' > Please introduce yourself </h4>
 <p>I’m Jonathan Beliën, web developer specialized in Geographical Information System (fancy words to say I use maps and geographical data), board member of <a href="https://osm.be/"> OpenStreetMap Belgium </a> and member of <a href="https://openlabs.cc/"> Open Labs.</p>
