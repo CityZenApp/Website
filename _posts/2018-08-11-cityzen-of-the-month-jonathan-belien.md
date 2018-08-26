@@ -5,7 +5,7 @@ layout: post
 <br>
 <p><img src="/assets/images/thanks_cityzen.jpg" alt="CityZen of the month"  width="70%" ></p>
 <br>
-<p> On this blogpost we are featuring one more contributor that is been helping the CityZen community grow for quite some time. Sidorela is a software engineer and is helping us with our website. She is June's "Contributor of the Month". We interviewed her in order to get to know her better. Everyone can nominate the next contributor of the month on  <a href="https://github.com/CityZenApp/Project-Management/issues/25">GitHub</a>  or by mentioning us on 
+<p> On this blogpost we are featuring one more contributor that is been helping the CityZen community grow for quite some time. Jonathan is a web developer coming from Brussels, Belgium. He is August's "Contributor of the Month". We interviewed him in order to get to know him better. Everyone can nominate the next contributor of the month on  <a href="https://github.com/CityZenApp/Project-Management/issues/25">GitHub</a>  or by mentioning us on 
 <a href="https://twitter.com/CityZenappco?lang=en">Twitter</a>.</p> 
 <br>
 <!--break-->
