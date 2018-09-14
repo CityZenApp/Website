@@ -5,7 +5,22 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="cityzen" />
-			<!--[if lte IE 8]><script src="/assets/css/ie/html5shiv.js"></script><![endif]-->
+		
+		<!-- Google Authorship Markup -->
+    		<link rel="author" href="https://plus.google.com/{{site.gplus_username}}?rel=author">
+
+    		<!-- Social: Twitter -->
+    		<meta name="twitter:card" content="summary_large_image">
+    		<meta name="twitter:site" content="@{{site.twitter_username}}">
+    		<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    		<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    		{% if page.image %}
+    		<meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
+    		{% else %}
+    		<meta property="twitter:image:src" content="{{ "" | prepend: site.baseurl | prepend: site.url }}">
+		{% endif %}
+		
+		<!--[if lte IE 8]><script src="/assets/css/ie/html5shiv.js"></script><![endif]-->
 		<link rel="icon" type="image/png" href="assets/images/favicon.png" width="64" height="64">
 		<script src="/assets/js/creative.js"></script>
 		<script src="/assets/js/jquery.min.js"></script>
